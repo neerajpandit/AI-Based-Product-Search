@@ -132,6 +132,27 @@ DB_PASSWORD=yourpassword
 
 JWT_SECRET=your_secret
 JWT_EXPIRES=1d
+
+JWT_SECRET=supersecretkey123
+JWT_EXPIRES=1d
+
+
+REFRESH_TOKEN_SECRET=refreshsecretkey123
+REFRESH_TOKEN_EXPIRES=7d
+
+BCRYPT_SALT_ROUNDS=10
+
+LOG_LEVEL=debug
+
+
+CLIENT_URL=http://localhost:3000
+
+
+AI_PROVIDER=openai   # or ollama
+
+OPENAI_API_KEY=your_openai_key
+OLLAMA_BASE_URL=http://localhost:11434
+OLLAMA_MODEL=llama3
 ```
 
 ---
@@ -283,6 +304,6 @@ GET /api/search?q=red shoes under 3000
 
 # 📌 Author
 
-Developed by **Akhil Pandit**
+Developed by **Neeraj Pandey**
 
 ---
